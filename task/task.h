@@ -3,7 +3,7 @@
 
 typedef struct {
   char description[100];
-  char date[20];
+  char dateTime[40];
   int completed;
 }
 Task;

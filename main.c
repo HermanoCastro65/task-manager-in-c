@@ -1,4 +1,4 @@
-#include "interfaces/interfaces.h"
+#include "interfaces/buttons.h"
 
 GtkWidget * window;
 GtkWidget * addButton;

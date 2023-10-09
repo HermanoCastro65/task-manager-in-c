@@ -1,6 +1,6 @@
 {
     "Compilation": {
-      "compileCommand": "gcc ./interfaces/buttons.c main.c -o task-manager-app `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`",
+      "compileCommand": "gcc ./interfaces/buttons.c main.c -o task-manager-app `pkg-config --cflags --libs gtk+-3.0`",
       "runCommand": "./task-manager-app"
     },
     "Formater": {
